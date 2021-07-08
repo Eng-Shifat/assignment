@@ -13,9 +13,10 @@ body{
     font-size: 25px;
     font-weight: lighter;
     font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
     margin: 5%;
 }
-.button{
+.order-food-button{
     
     font-size: 20px;
     color: white;
@@ -37,7 +38,7 @@ body{
     margin: 20px 40px;
 
 }
-div img{
+.first-image{
     height: 747.23;
     width: 658.26;
 }
@@ -45,25 +46,58 @@ div img{
 .section-div-one{
    margin: 5%
    width: 40%;
-   height: 500px;
+   height: 600px;
    padding-top: 180px;
+   border: 2px solid red;
 
 }
 
 .section-div-two{
     margin: 5%
     width: 40%;
+    padding: auto;
+    border: 2px solid red;
     
 }
 .second-section{
-    margin-top: 100px;
     display: flex;
     background-image: url(shapes/7.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-top: 100px;
+    height: 500px;
+    border: 2px solid red;
     
 }
-.second-image{
-    height: 1300;
+.about-image{
     width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    border: 2px solid red;
+    
+}
+.about-section{
+    width: 40%;
+    margin-left: 2.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 5%;
+    padding: 100px 25px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    border: 2px solid red;
+}
+.contact-me-button{
+    font-size: 20px;
+    color: white;
+    font-weight:400;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    border-radius: 25px;
+    background-image: linear-gradient(#FBA24F,#FF1E1E);
 }
