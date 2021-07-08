@@ -26,7 +26,7 @@ body{
     padding: 12px 25px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     border-radius: 25px;
-    background-image: linear-gradient(#FBA24F,#FF1E1E);
+    background-image:linear-gradient(#FBA24F,#FF1E1E);
 }
 .orange{
     color: #df4f2f;
@@ -48,7 +48,6 @@ body{
    width: 40%;
    height: 600px;
    padding-top: 180px;
-   border: 2px solid red;
 
 }
 
@@ -56,17 +55,16 @@ body{
     margin: 5%
     width: 40%;
     padding: auto;
-    border: 2px solid red;
-    
 }
+
 .second-section{
     display: flex;
     background-image: url(shapes/7.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 100px;
+    margin-bottom: 150px;
     height: 500px;
-    border: 2px solid red;
     
 }
 .about-image{
@@ -78,8 +76,9 @@ body{
     padding-top: 50px;
     padding-bottom: 0px;
     display: flex;
-    border: 2px solid red;
-    
+}
+.img{
+    text-align: center;
 }
 .about-section{
     width: 40%;
@@ -89,8 +88,9 @@ body{
     padding: 100px 25px;
     text-align: justify;
     color: rgb(0, 0, 0);
-    border: 2px solid red;
+    
 }
+
 .contact-me-button{
     font-size: 20px;
     color: white;
@@ -100,4 +100,62 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif ;
     border-radius: 25px;
     background-image: linear-gradient(#FBA24F,#FF1E1E);
+}
+
+.display-flex{
+    display: flex;
+
+}
+.third-section{
+    height: 528px;
+    width: 1239px;
+    padding: 2% 10%;
+    
+
+}
+.image-size{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+.recipe-one{
+    border: 2px solid yellow;
+    border-radius: 15px;
+    width: 29.33%;
+    padding-left:1%;
+    padding-top:1%;
+    padding-bottom:2%;
+    padding-right:1%;
+    margin: 2%;
+    margin-left: 150px;
+    text-align: center;
+    box-shadow: ;
+    
+
+}
+.recipe-two{
+    border: 2px solid yellow;
+    border-radius: 15px;
+    width: 29.33%;
+    padding: 2% ;
+    margin: 2%;
+    text-align: center;
+    
+}
+.recipe-thiree{
+    border: 2px solid yellow;
+    border-radius: 15px;
+    width: 29.33%;
+    padding: 2%;
+    margin: 2%;
+    margin-right: 150px;
+    text-align: center;
+    
+
+}
+.paragraph{
+    text-align: justify;
+}
+.box-shadow{
+    box-shadow:10px 10px 40px gray;
 }
