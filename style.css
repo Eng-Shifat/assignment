@@ -4,15 +4,16 @@ body{
 }
 .font{
     font-size: 60px;
-    font-weight: 500;
-    margin: 0px;
+    font-weight:bold;
+    margin: 5%;
     line-height: 75px;
     
 }
 .paragraph-font{
     font-size: 25px;
     font-weight: lighter;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 5%;
 }
 .button{
     
@@ -20,7 +21,7 @@ body{
     color: white;
     font-weight:400;
     text-decoration: none;
-    margin-top: 30px;
+    margin: 5%;
     padding: 12px 25px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     border-radius: 25px;
@@ -42,7 +43,7 @@ div img{
 }
 
 .section-div-one{
-   margin: 60px 40px;
+   margin: 5%
    width: 40%;
    height: 500px;
    padding-top: 180px;
@@ -50,7 +51,19 @@ div img{
 }
 
 .section-div-two{
-    margin: 60px 40px;
+    margin: 5%
     width: 40%;
     
+}
+.second-section{
+    margin-top: 100px;
+    display: flex;
+    background-image: url(shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.second-image{
+    height: 1300;
+    width: 40%;
 }
